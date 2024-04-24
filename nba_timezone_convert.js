@@ -54,5 +54,5 @@
 
     // Run the conversion function when the document loads and periodically to catch dynamic updates
     window.addEventListener('load', convertTimeToGMT);
-    setInterval(convertTimeToGMT, 10); // Update every 5 seconds to catch dynamic changes
+    setInterval(convertTimeToGMT, 10); // Update every 10ms
 })();
